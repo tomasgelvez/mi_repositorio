@@ -112,7 +112,7 @@ h5 { color: black; }
 
 .btn-modal:hover { position: relative; -webkit-transition-property: background-color, color; transition-property: background-color, color; -webkit-transition-duration: 1s; transition-duration: 1s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; background-color: white; color: black; -moz-box-shadow: 2px 2px 1px black; }
 
-.btn { padding: 10px; font-size: 18px; background-color: red; border: black 1px solid; }
+.btn { padding: 5px; font-size: 18px; background-color: red; border: black 1px solid; }
 
 .redes { font-size: 36px; display: -webkit-box; display: -ms-flexbox; display: flex; color:white; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
