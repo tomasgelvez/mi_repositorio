@@ -31,7 +31,7 @@ h1 { font-size: 36px; display: -webkit-box; display: -ms-flexbox; display: flex;
 
 /*Final del index*/
 /*entrenamientos*/
-#grillaEntrenamiento { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 35% auto 55%; grid-template-rows: 35% auto 55%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+#grillaEntrenamiento { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 35% auto 55%; grid-template-rows: 35% auto 55%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; }
 
 .horario { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; width: 35%; padding: 20px; }
 
@@ -49,7 +49,7 @@ article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box
 
 /*fin de entrenamientos*/
 /*Mision*/
-#grillaMision { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 30% 40% 50%; grid-template-rows: 30% 40% 50%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+#grillaMision { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 35% auto 55%; grid-template-rows: 35% auto 55%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; }
 
 .pag-mision { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
@@ -61,9 +61,9 @@ article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box
 /*Nosotros*/
 section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-.border { border: solid 1px black; background-color: black; }
+.border { border: solid 1px black; background-color: black; color: black; }
 
-#grilla { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 40% auto 35%; grid-template-rows: 40% auto 35%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+#grilla { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 35% auto 55%; grid-template-rows: 35% auto 55%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px black; }
 
 header { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: header; }
 
@@ -75,7 +75,7 @@ footer { -ms-grid-row: 3; -ms-grid-column: 1; grid-area: footer; font-size: 20px
 
 /*Fin nosotros*/
 /*Contacto*/
-#grillaContacto { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 35% auto 50%; grid-template-rows: 35% auto 50%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+#grillaContacto { display: -ms-grid; display: grid; grid-template-areas: "header" "section" "footer"; -ms-grid-rows: 35% auto 50%; grid-template-rows: 35% auto 50%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px black; }
 
 .pag-contacto { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: red; }
 
@@ -94,8 +94,6 @@ footer { -ms-grid-row: 3; -ms-grid-column: 1; grid-area: footer; font-size: 20px
 h4 { color: black; }
 
 h5 { color: black; }
-
-.pie { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-decoration: none; color: #f2f2f2; font-size: 20px; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; padding: 20px; border: 20px; }
 
 .btn-modal { position: relative; -webkit-transition-property: background-color, color; transition-property: background-color, color; -webkit-transition-duration: 1s; transition-duration: 1s; -webkit-transition-timing-function: ease-out; transition-timing-function: ease-out; background-color: black; }
 
