@@ -33,7 +33,7 @@ h1 { font-size: 45px; display: -webkit-box; display: -ms-flexbox; display: flex;
 /*entrenamientos*/
 #grillaEntrenamiento { display: -ms-grid; display: grid; grid-template-areas: "header"
  "section"
- "footer"; -ms-grid-rows: 35% auto 55%; grid-template-rows: 35% auto 55%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+ "footer"; -ms-grid-rows: 35% auto 55%; grid-template-rows: 35% auto 55%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0;  }
 
 .horario { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; width: 35%; padding: 40px; }
 
@@ -53,7 +53,7 @@ article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box
 /*Mision*/
 #grillaMision { display: -ms-grid; display: grid; grid-template-areas: "header"
  "section"
- "footer"; -ms-grid-rows: 30% 40% 50%; grid-template-rows: 30% 40% 50%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+ "footer"; -ms-grid-rows: 30% 40% 50%; grid-template-rows: 30% 40% 50%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0;  }
 
 .pag-mision { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
@@ -69,7 +69,7 @@ section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box
 
 #grilla { display: -ms-grid; display: grid; grid-template-areas: "header"
  "section"
- "footer"; -ms-grid-rows: 40% auto 35%; grid-template-rows: 40% auto 40%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+ "footer"; -ms-grid-rows: 40% auto 35%; grid-template-rows: 40% auto 40%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; }
 
 header { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: header; }
 
@@ -83,7 +83,7 @@ footer { -ms-grid-row: 3; -ms-grid-column: 1; grid-area: footer; font-size: 24px
 /*Contacto*/
 #grillaContacto { display: -ms-grid; display: grid; grid-template-areas: "header"
  "section"
- "footer"; -ms-grid-rows: 35% auto 50%; grid-template-rows: 35% auto 50%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; border: solid 1px white; }
+ "footer"; -ms-grid-rows: 35% auto 50%; grid-template-rows: 35% auto 50%; -ms-grid-columns: 100%; grid-template-columns: 100%; height: 100vh; margin: 0; }
 
 .pag-contacto { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: red; }
 
