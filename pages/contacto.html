@@ -34,31 +34,25 @@
 			
 		
 			<article class="pag-formulario">
-			<form action="#" class="pag-label" >
-				<label for="nombre" > Nombre:
-				<input type="text" name="nombre" placeholder="nombre">
+				<form action="envia.php" method="post" class="containerForm">
 
-				</label>
-				<label for="apellido" > Apellido:
-				<input type="text" name="apellido" placeholder="apellido">
-
-				</label>
-				<label for="email"> Email:
-				<input type="text" placeholder="email">
-				</label>
-
-				<div class="pag-sexo">Coloque su sexo:</div>
-				<span>Hombre</span>
-				<input type="radio" name="sexo" value="hombre">
-				<span>Mujer</span>
-				<input type="radio" name="sexo" value="Mujer">
-			
-				<div><input type="checkbox" name="acepta" value="1">Acepto los terminos y condiciones
-				</div>
-			
-				<input type="submit" value="enviar">
-				<input type="reset" value="resetear">
-			</form>
+					<div class="campos-form">
+					  <label class="label-form" for="nombre y apellido">Nombre y Apellido:</label>
+					  <input type="text" name="nombre" required>
+					</div>
+				
+					<div class="campos-form">
+					  <label class="label-form" for="email">Email:</label>
+					  <input type="email" name="email" required>
+					</div>
+				
+					<div class="campos-form">
+					  <label class="label-form" for="message">Deja tu mensaje:</label>
+					  <textarea name="message" rows="4"></textarea>
+					</div>
+					
+					  <button class="label-form" id="botonEnviar" type="submit" value="Enviar">Enviar</button>
+				</form>
 			</article>
 		</section>
 		<footer>
