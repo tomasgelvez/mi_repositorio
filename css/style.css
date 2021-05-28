@@ -390,6 +390,20 @@ footer {
     height: 100vh;
     margin: 0;
 }
+.campos-form{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.label-form{
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
+    
+}
+button#botonEnviar {
+    font-size: 24px;
+}
 
 .pag-contacto {
     display: -webkit-box;

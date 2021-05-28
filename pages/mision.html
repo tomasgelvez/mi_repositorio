@@ -95,21 +95,25 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<form action="#" class="btn-nutricionista" >
-							<label for="nombre" > Nombre:
-							<input type="text" name="nombre" placeholder="nombre">
-			
-							</label>
-							<label for="apellido" > Apellido:
-							<input type="text" name="apellido" placeholder="apellido">
-			
-							</label>
-							<label for="email"> Email:
-							<input type="text" placeholder="email">
-							</label>
-							<p>Deja tus datos y nos pondremos en contacto contigo para poder asignarte un turno</p>
-							<input type="submit" value="enviar">
-							<input type="reset" value="resetear">
+						<form action="enviaNutricionista.php" method="post" class="containerForm">
+
+							<div class="campos-form">
+							  <label class="label-form" for="nombre y apellido">Nombre y Apellido</label>
+							  <input type="text" name="nombre" required>
+							</div>
+						
+							<div class="campos-form">
+							  <label class="label-form" for="email">Email</label>
+							  <input type="email" name="email" required>
+							</div>
+						
+							<div class="campos-form">
+							  <label class="label-form" for="message">Deja tu mensaje</label>
+							  <textarea name="message" rows="4"></textarea>
+							</div>
+							
+							  <button class="botonContacto" id="botonEnviar" type="submit" value="Enviar">Enviar</button>
+						</form>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Close</button>
