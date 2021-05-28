@@ -12,8 +12,7 @@
 		<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
 		<link rel="manifest" href="../assets/img/site.webmanifest">
-
-		<title>Document</title>
+		<title>Centro de entrenamientos 602</title>
 	</head>
 
 	<body class="body">
@@ -204,21 +203,25 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<form action="#" class="btn-kinesiologia" >
-							<label for="nombre" > Nombre:
-							<input type="text" name="nombre" placeholder="nombre">
-			
-							</label>
-							<label for="apellido" > Apellido:
-							<input type="text" name="apellido" placeholder="apellido">
-			
-							</label>
-							<label for="email"> Email:
-							<input type="text" placeholder="email">
-							</label>
-							<p>Deja tus datos y nos pondremos en contacto contigo para poder asignarte un turno</p>
-							<input type="submit" value="enviar">
-							<input type="reset" value="resetear">
+						<form action="enviaKinesiologo.php" method="post" class="containerForm">
+
+							<div class="campos-form">
+							  <label class="label-form" for="nombre y apellido">Nombre y Apellido</label>
+							  <input type="text" name="nombre" required>
+							</div>
+						
+							<div class="campos-form">
+							  <label class="label-form" for="email">Email</label>
+							  <input type="email" name="email" required>
+							</div>
+						
+							<div class="campos-form">
+							  <label class="label-form" for="message">Deja tu mensaje</label>
+							  <textarea name="message" rows="4"></textarea>
+							</div>
+							
+							  <button class="botonContacto" id="botonEnviar" type="submit" value="Enviar">Enviar</button>
+						</form>
 
 					</div>
 					<div class="modal-footer">

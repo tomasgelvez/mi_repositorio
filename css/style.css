@@ -395,6 +395,9 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.label{
+    font-size: 24px;
+}
 .label-form{
     display:flex;
     flex-direction: column;
