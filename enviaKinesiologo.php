@@ -23,6 +23,6 @@ if (!$_POST){
 
     mail($destinatario, $asunto, $cuerpo, $headers);
     
-    include 'gracias.html'; //se debe crear un html que confirma el envío
+    include 'graciasKinesiologia.html'; //se debe crear un html que confirma el envío
 }
 ?>
