@@ -672,4 +672,13 @@ h5 {
         width: fit-content;
         padding: 5px;
     }
+    .redes{
+        font-size:24px;
+    }
+    .horario{
+        display: flex;
+        display: block;
+        flex-direction: row;
+
+    }
 }
