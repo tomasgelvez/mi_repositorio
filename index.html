@@ -14,7 +14,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
 	<link rel="manifest" href="assets/img/site.webmanifest">
 	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="scss/style.css">
 	<script src="https://kit.fontawesome.com/d6bfe580e8.js" crossorigin="anonymous"></script>
 	<meta name="description" content="Este es el sitio web de mi gimnasio, en el podrás encontrar:
 	“De dónde venimos, cual es nuestra misión, los diferentes horarios de cada clase, donde puedes inscribirte y mucho más">
@@ -24,7 +24,7 @@
 </head>
 
 <body class="body">
-<div id="grillaIndex">
+<div id="grilla">
 	<header>
         <!-- Encabezado-->
         <img class="logo" src="assets/img/602.jpg.jpg"alt="logo">
@@ -47,6 +47,10 @@
 		  	</div>
 		  	<div class="carousel-item">
 		    	<img class="d-block w-100" src="assets/img/apto.jpg.jpg" alt="Third slide">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="assets/img/img2.jpg" alt="Four slide">
+			</div>
 		</div>
 			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -61,15 +65,13 @@
 	<footer>
 			<p class="redes">SEGUINOS EN NUESTRAS REDES</p>
 			<div class="redes-container">
-				<ul>
-					<li><a href="https://www.facebook.com/602godoycruz" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="https://www.instagram.com/602godoycruz/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
-				</ul>
+				<a href="https://www.facebook.com/602godoycruz" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/602godoycruz/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
 			</div>
 			
 		<!-- modal documentación -->
 		<!-- Button modal documentación-->
-		<button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#exampleModal-1">
+		<button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal-1">
 			APTO FISICO
 		</button>
 		<!-- Modal documentación-->
@@ -84,19 +86,20 @@
 						</button>
 					
 					<div class="modal-body">
+							<h5>Haga click aqui para descargar tu apto fisico</h5>
 							<a href="assets/modales/aptofisico.pdf" download="descargar ficha apto fisico" target="_blank" title="Apto fisico"><i class="fas fa-download"></i>	</a>	
 					</div>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary btn-modal">Save changes</button>
+						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Cerrar</button>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- modal alimentación -->
 		<!-- Button modal alimentación-->
-		<button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#exampleModal-2">
+		<button type="button" class="btn  btn-modal" data-toggle="modal" data-target="#exampleModal-2">
 			NUTRICIONISTA
 		</button>
 		<!-- Modal alimentación-->
@@ -132,8 +135,8 @@
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary btn-modal">Save changes</button>
+						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Cerrar</button>
+					
 					</div>
 				</div>
 			</div>
@@ -141,7 +144,7 @@
 
 		<!-- modal Sucursales -->
 		<!-- Button modal Sucursales-->
-		<button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#exampleModal-3">
+		<button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal-3">
 			SUCURSALES
 		</button>
 		<!-- Modal Sucursales-->
@@ -167,8 +170,8 @@
 
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary btn-modal">Save changes</button>
+						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Cerrar</button>
+						
 					</div>
 				</div>
 			</div>
@@ -179,7 +182,7 @@
 
 		<!-- modal inscribirme -->
 		<!-- Button modal inscribirme-->
-		<button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#exampleModal-4">
+		<button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal-4">
 			INSCRIBIRME
 		</button>
 		<!-- Modal inscribirme-->
@@ -194,18 +197,19 @@
 						</button>
 					</div>
 					<div class="modal-body">
+						<h5>Haga click aqui para descargar tu ficha de inscripcion</h5>
 						<a href="assets/modales/inscripcion.pdf" download="descargar ficha de inscripcion" target="_blank" title="Inscribirme"><i class="fas fa-download"></i></a>	
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary btn-modal">Save changes</button>
+						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Cerrar</button>
+						
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- modal kinesiologia -->
 		<!-- Button modal kinesiologia-->
-		<button type="button" class="btn btn-primary btn-modal" data-toggle="modal" data-target="#exampleModal-5">
+		<button type="button" class="btn btn-modal" data-toggle="modal" data-target="#exampleModal-5">
 			KINESIOLOGÍA
 		</button>
 		<!-- Modal kinesiologia-->
@@ -241,14 +245,14 @@
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary btn-modal">Save changes</button>
+						<button type="button" class="btn btn-secondary btn-modal" data-dismiss="modal">Cerrar</button>
+					
 					</div>
 				</div>
 			</div>
 		</div>
 
-
+		<p class="copy">©-Copyright Tomas Gelvez</p>
 
 	</footer>
 
