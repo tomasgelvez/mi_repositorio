@@ -23,13 +23,11 @@ div#carouselExampleControls { margin-top: 40px; }
 
 .texto h2 { color: red; font-size: 18px; margin: 20px; padding: 20px; text-align: center; }
 
-.texto p { color: #dedcdc; font-style: normal; font-size: 20px; font-family: 'Roboto', sans-serif; text-align: center; }
+.texto p { color: #dedcdc; font-style: normal; font-size: 24px; font-family: 'Roboto', sans-serif; text-align: center; }
 
 section article { width: 60%; padding: 40px; }
 
 .primerFoto { margin-bottom: 20px; margin-top: 10px; }
-
-h1 { font-size: 45px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-top: 10px; margin-bottom: 20px; }
 
 /*Final del index*/
 /*Comienzo de pages Entrenamientos*/
@@ -55,9 +53,9 @@ article { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box
 /*Nosotros*/
 section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-.nosotrosTexto { font-size: 45px; margin-top: 10px; color: red; }
+h1 { font-size: 45px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-top: 10px; }
 
-.parrafoNosotros { font-size: 36px; color: white; }
+.parrafoNosotros { font-size: 36px; color: white; margin-top: 10px; }
 
 .border { border: solid 1px black; background-color: black; color: black; }
 
@@ -68,8 +66,6 @@ header { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: header; }
 section { -ms-grid-row: 2; -ms-grid-column: 1; grid-area: section; }
 
 footer { -ms-grid-row: 3; -ms-grid-column: 1; grid-area: footer; font-size: 20px; text-align: center; padding-bottom: 20px; }
-
-.padreUl { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 .copy { margin: 20px; }
 
@@ -86,7 +82,7 @@ button#botonEnviar { font-size: 24px; margin-top: 10px; }
 
 .contacto { margin-top: 10px; font-size: 45px; }
 
-.pag-contacto { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: red; }
+.pag-contacto { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: red; font-size: 45px; }
 
 .pag-formulario { font-size: 24px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; }
 
@@ -156,11 +152,12 @@ h5 { color: black; }
 .elemento-pmobile { font-size: 20px; }
 
 /* Mobile */
-@media (min-width: 300px) and (max-width: 768px) { header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin: 0px; }
+@media (min-width: 300px) and (max-width: 768px) { header { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-bottom: 10px; }
   section { margin-top: 80px; }
   .logo { width: 200px; margin-left: 0; }
   .encabezado a { font-size: 80%; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; padding: 5px; margin-bottom: 10px; }
   .redes { font-size: 24px; }
   .btn-modal { font-size: 8px; }
-  section article { width: 80%; } }
+  section article { width: 80%; }
+  .nosotrosTexto { font-size: 45px; margin-top: 10px; } }
 /*# sourceMappingURL=style.css.map */
