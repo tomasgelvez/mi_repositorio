@@ -63,7 +63,9 @@ header {
 .parrafoPrimero {
 	text-align: center;
 }
-
+div#carouselExampleControls {
+    margin-top: 40px;
+}
 #carouselExampleControls {
 	display: flex;
 	flex-direction: column;
@@ -109,14 +111,16 @@ section article {
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 45px;
 	display: flex;
 	flex-direction: column;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 /*Final del index*/
 
-
+/*Comienzo de pages Entrenamientos*/
 .horario {
 	width: 100%;
 	margin-bottom: 40px;
@@ -134,7 +138,9 @@ article {
 .pag-entrenamiento {
 	display: flex;
 	flex-direction: column;
-	justify-content: center
+	justify-content: center;
+	color:red;
+	margin-top:10px;
 }
 
 .entrenamientosParrafo {
@@ -142,16 +148,17 @@ article {
 }
 
 .entrenamientoSemana {
-	font-size: 36px;
+	font-size: 45px;
 	color: red;
 	padding: 50px;
+	margin-top: 10px;
 }
 
 
 
 /*fin de entrenamientos*/
 
-
+/*Comienzo de mision*/ 
 .pag-mision {
 	display: flex;
 	flex-direction: column;
@@ -162,6 +169,7 @@ article {
 .mision {
 	color: red;
 	font-size: 45px;
+	margin-top: 10px;
 }
 
 .parrafo {
@@ -182,7 +190,15 @@ section {
 	flex-direction: row;
 	justify-content: center;
 }
-
+.nosotrosTexto{
+	font-size: 45px;
+	margin-top: 10px;
+	color:red;
+}
+.parrafoNosotros{
+	font-size:36px;
+	color:white;
+}
 .border {
 	border: solid 1px black;
 	background-color: black;
@@ -262,7 +278,10 @@ button#botonEnviar {
     margin-top: 10px;
 }
 
-
+.contacto{
+	margin-top: 10px;
+	font-size:45px;
+}
 .pag-contacto {
     display: flex;
     flex-direction: column;
@@ -475,7 +494,10 @@ $tamanio in $tamanioFuente {
         flex-direction: column;
         margin: 0px;
     }
-
+	section {
+		margin-top: 80px;
+		
+	}
     .logo {
         width: 200px;
 		margin-left: 0;
